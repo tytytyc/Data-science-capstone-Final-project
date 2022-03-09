@@ -1,0 +1,53 @@
+---
+title: 'Data science capstone: final project'
+author: "TYC"
+date: "3/9/2022"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Next word prediction app
+
+This is an word prediction app presentation. 
+This app takes as input a phrase (multiple words) in a text box input and outputs a prediction of the next word.
+
+## Data
+
+We use the SwiftKey database including 3 text files, which are blogs, news and twitter. We only use the English version.
+
+- en_US.blogs.txt: 899288 lines, 38004083 words
+- en_US.news.txt: 1010242 lines, 35537939 words
+- en_US.twitter.txt: 2360148 lines, 30997636 words
+
+Since the 3 text files are large, we trained 1% of the data.
+
+
+## How to use the app
+
+In the app, please type in the word(s) you would like to predict in the left panel box, the most popular five word(s) will pop up in the right panel.
+
+<center>
+
+![The app](D:\\study\\data science capstone\\milestone report\\app_fig.png)
+
+
+## Links
+
+The Application:
+
+[https://2hu5qc-tszyu-chow.shinyapps.io/predictor/](https://2hu5qc-tszyu-chow.shinyapps.io/predictor/)
+
+Compiled files on github:
+
+[https://github.com/tytytyc/Data-science-capstone-Final-project](https://github.com/tytytyc/Data-science-capstone-Final-project)
+
+ 
+ 
+
+
+
+
+
