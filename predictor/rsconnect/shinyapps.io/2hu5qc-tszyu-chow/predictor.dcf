@@ -1,0 +1,13 @@
+name: predictor
+title: predictor
+username:
+account: 2hu5qc-tszyu-chow
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5813168
+bundleId: 5660445
+url: https://2hu5qc-tszyu-chow.shinyapps.io/predictor/
+when: 1646817819.2149
+lastSyncTime: 1646817819.2149
+asMultiple: FALSE
+asStatic: FALSE
